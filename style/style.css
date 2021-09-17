@@ -133,8 +133,6 @@ p
     border-collapse:collapse;
     margin:auto;
     font-family:monospace;
-    position:relative;
-    left:-50px;
 }
 
 .typechart td
@@ -146,11 +144,15 @@ p
 .typechart td.guess
 {
     border-right:0;
+    font-size: x-large;
+    color: darkslategray;
 }
 
 .typechart td.answer
 {
     border-left:0;
+    font-size: x-large;
+    color: darkslategray;
 }
 
 #scoring
